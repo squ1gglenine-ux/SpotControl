@@ -1,0 +1,40 @@
+﻿# Build output
+[Bb]in/
+[Oo]bj/
+Build/
+out/
+publish/
+
+# Visual Studio / Rider
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.DotSettings.user
+
+# Project caches
+*.lscache
+*.cache
+*.log
+*.tmp
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Test / coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local runtime artifacts (if copied into repo accidentally)
+*.runtimeconfig.dev.json
